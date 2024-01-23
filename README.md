@@ -1,2 +1,0 @@
-# soloproject
-newtechsstore

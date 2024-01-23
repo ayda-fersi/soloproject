@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Tech Store</title>
+  
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    
+</head>
+<body>
+
+    <header>
+        <nav>
+                <section class="productContainer">
+                    <li>
+                        <a onclick="toggleProductsMenu()">Products</a>
+                        <ul id="products-menu" class="hidden">
+                            <li><a href="#" onclick="showProduct('headphones')">headphones</a></li>
+                            <li><a href="#" onclick="showProduct('mouses')">Mouses</a></li>
+                            <li><a href="#" onclick="showProduct('Screens')">Screens</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a onclick="togglesub()">Subscriptions</a>
+                        <ul id="subs" class="hidden">
+                            <li><a href="#" onclick="showProduct('netflix')">netflix</a></li>
+                            <li><a href="#" onclick="showProduct('spotify')">spotify</a></li>
+                        </ul>
+                    </li>
+                </section>
+                <div>
+        </nav>
+
+    </header>
+
+
+<div class="slideshow-container">
+
+<div class="mySlidesFade">
+  <div class="numbertext">1 / 6</div>
+  <img src="casque1.jpg.jpg" >
+  
+</div>
+
+<div class="mySlidesFade">
+  <div class="numbertext">2 / 6</div>
+  <img src="casque2.jpg" >
+
+</div>
+
+
+<div class="mySlidesFade">
+    <div class="numbertext">3 /6 </div>
+    <img src="mouse1.jpg" >
+  
+  </div>
+  <div class="mySlidesFade">
+    <div class="numbertext">4 / 6</div>
+    <img src="mouse2.jpg" >
+  
+  </div>
+  <div class="mySlidesFade">
+    <div class="numbertext">5/ 6</div>
+    <img src="screen1.jpg.jpg" >
+  
+  </div>
+  <div class="mySlidesFade">
+    <div class="numbertext">6 / 6</div>
+    <img src="screen2.jpg" >
+  
+  </div>
+
+</div>
+<br>
+
+<div class="dots" style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<div class="foot"> 
+    <footer class="footer">
+
+        <div class="footer-left">
+
+            <h3>techstore<span>Tech Store</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a>
+                ·
+                <a href="#">Blog</a>
+                ·
+                <a href="#">About</a>
+                ·
+                <a href="#">Contact</a>
+            </p>
+
+            <p class="footer-company-name">techstore &copy; 2024</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Ariana</span> Tunis, Tunisia</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+21654207292</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">contact@techstore.com</a></p>
+            </div>
+
+        
+
+  
+            </div>
+        </div>  
+    <script src="index.js"></script>
+</body>
+</html>
